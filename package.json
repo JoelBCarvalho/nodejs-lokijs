@@ -1,0 +1,21 @@
+{
+  "name": "watcher",
+  "version": "1.0.0",
+  "description": "WatchBees",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js",
+    "lint": "eslint .",
+    "production": "node index.js"
+  },
+  "author": "JoelCarvalho",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "dotenv": "^5.0.1",
+    "express": "^4.16.3",
+    "lokijs": "^1.5.3",
+    "winston": "^2.4.2"
+  }
+}
